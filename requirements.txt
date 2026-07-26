@@ -1,0 +1,8 @@
+# Foundry Local RAG project dependencies
+# Windows: the -winml package integrates with the Windows ML runtime for
+# broader hardware acceleration. (On macOS/Linux you'd use foundry-local-sdk.)
+foundry-local-sdk-winml
+openai
+numpy
+pypdf          # read text out of PDF notes
+python-docx    # read text out of Word (.docx) notes

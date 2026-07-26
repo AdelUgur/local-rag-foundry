@@ -1,0 +1,38 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Generated vector store - rebuild with `python ingest.py`
+rag.db
+
+# Generated evaluation output is committed on purpose (it is evidence),
+# but runtime logs are not.
+kernel.errors.txt
+*.log
+
+# Your own notes are personal data - keep them out of a public repo.
+# The pipeline works on whatever you put in docs/; see docs/README.md.
+docs/*
+!docs/README.md
+/*.pdf
+/*.docx
+
+# Environment / secrets
+.env
+.env.*
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Personal submission checklist - notes to self, not part of the deliverable
+SUBMISSION.md
